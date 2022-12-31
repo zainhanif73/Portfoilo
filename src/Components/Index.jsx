@@ -21,7 +21,7 @@ function Index() {
             <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About Us</a></li>
-              <li><a href="#service">Services</a></li>
+              <li><a href="#testimonial">Testimonial</a></li>
               <li><a href="#service">Skills</a></li>
               <li><a onClick={() => { ZoomEmail() }}>Contact Me</a></li>
             </ul>
@@ -56,6 +56,48 @@ function Index() {
         </div>
       </section>
 
+      {/* <!-----service section start-----------> */}
+      <div className="service" id="testimonial">
+        <div className="title">
+          <h2>My Testimonials</h2>
+        </div>
+
+        <div className="box">
+          <div className="card">
+            <i className="fas fa-bars"></i>
+            <h5>Qazi Hamza Anis </h5>
+            <div className="pra">
+              <p>"No matter where you put a start it will always get its way out to shile. You are just like that."</p>
+
+              <p style={{ textAlign: "center" }}>
+                <a className="button" href="https://www.linkedin.com/in/qazihamzaanis/" target={"_blank"}>Visit Profile</a>
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <i className="fas fa-bars"></i>
+            <h5>Ismail Khan </h5>
+            <div className="pra">
+              <p>"It's been great working with you. I'm so happy for you and your new opportunity. Best of luck."</p>
+
+              <p style={{ textAlign: "center" }}>
+                <a className="button" href="https://www.linkedin.com/in/ismail-khan-092696219/" target={"_blank"}>Visit Profile</a>
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <i className="fas fa-bars"></i>
+            <h5>Ahsan Yousaf</h5>
+            <div className="pra">
+              <p>"I am really impressed with his work. He is highly skilled, and also bring strong work ethic to the team."</p>
+
+              <p style={{ textAlign: "center" }}>
+                <a className="button" href="https://www.linkedin.com/in/ahsan-yousaf-973687192/" target={"_blank"}>Visit Profile</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </>
   )
