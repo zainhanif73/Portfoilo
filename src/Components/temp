@@ -1,0 +1,69 @@
+   {/* <!----About section start----> */}
+      <section className="about" id="about">
+        <div className="main">
+          <img src={img} alt="Image of me" />
+          <div className="about-text">
+            <h2>About Me</h2>
+            <h5>Developer <span>& Designer</span></h5>
+            <p>I am an assertive, hardworking, and responsible person with strong communication skills, who is confident,
+              outgoing, talkative, and works well in a team. I can also use my initiative and adapt well to a new situation. As a
+              highly motivated and enthusiastic software engineer, I enjoy working in challenging situations and looking for
+              new opportunities.</p>
+            <a href="#home" onClick={() => { ZoomEmail() }} style={{ textDecoration: "none", color: 'white' }}><button type="button">Let's Talk</button></a>
+          </div>
+        </div>
+      </section>
+
+      {/* <!-----service section start-----------> */}
+      <div className="service" id="service">
+        <div className="title">
+          <h2>My Services</h2>
+        </div>
+
+        <div className="box">
+          <div className="card">
+            <i className="fas fa-bars"></i>
+            <h5>Web Development</h5>
+            <div className="pra">
+              <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+              <p style={{ textAlign: "center" }}>
+                {/* <a className="button" href="/">Read More</a> */}
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <i className="fas fa-bars"></i>
+            <h5>Web Development</h5>
+            <div className="pra">
+              <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+              <p style={{ textAlign: "center" }}>
+                {/* <a className="button" href="/">Read More</a> */}
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <i className="fas fa-bars"></i>
+            <h5>Web Development</h5>
+            <div className="pra">
+              <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+              <p style={{ textAlign: "center" }}>
+                {/* <a className="button" href="/">Read More</a> */}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!------footer start---------> */}
+      <footer id="footer">
+        <p>Zain Hanif</p>
+        <p>For more HTML, CSS, and coding tutorial - please click on the a below to subscribe to my channel:</p>
+        <div className="social">
+          {/* <a href="/"><i className="fab fa-facebook-f"></i></a>
+          <a href="/"><i className="fab fa-instagram"></i></a>
+          <a href="/"><i className="fab fa-dribbble"></i></a> */}
+        </div>
+        <p className="end">CopyRight By @Zain Hanif</p>
+      </footer>
