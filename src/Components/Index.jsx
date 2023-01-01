@@ -44,7 +44,7 @@ function Index() {
         </div>
       </div>
 
-      <section className="about" id="about"  style={{marginTop:"1px"}}>
+      <section className="about" id="about">
         <div className="main">
           <img className='Myimg' src={img} alt="Image of me" />
           <div className="about-text">
