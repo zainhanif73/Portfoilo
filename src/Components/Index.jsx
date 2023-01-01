@@ -9,6 +9,7 @@ import img from "../img/mine-back.png"
 function Index() {
 
   const [zoom, setzoom] = useState(false);
+  const [email, setEmail] = useState('');
 
   function ZoomEmail() {
     setzoom(true);
@@ -16,6 +17,15 @@ function Index() {
       setzoom(false);
     }, 1000)
   }
+
+  function Submit(e){
+    if (email){
+      e.preventDefault();
+      setEmail("")
+      window.location.href="mailto:www.zainhanif73@gmail.com?subject=' Portfolio Website '&body='We Would Like To Get In Touch With You.'"
+    }
+  }
+
   return (
     <>
       <div className="hero" id="home">
@@ -36,9 +46,9 @@ function Index() {
           <h1 className='name'> Zain <span>Hanif</span></h1>
           <h3>I'am a Full Stack Web Developer.</h3>
           <div className="newslatter">
-            <form>
-              <input type="email" name="email" id="mail" placeholder="Enter Your Email" />
-              <input type="submit" name="submit" style={{ transform: zoom ? "scale(1.2)" : "" }} value="Lets Start" />
+            <form onSubmit={(e) => Submit(e)}>
+              <input type="email" name="email" required id="mail" onChange={(e)=>setEmail(e.target.value)} placeholder="Enter Your Email" />
+              <input type="submit" name="submit" style={{ cursor:'pointer', transform: zoom ? "scale(1.2)" : "" }} onClick={(e)=>{Submit(e)}} value="Lets Start" />
             </form>
           </div>
         </div>
@@ -101,6 +111,8 @@ function Index() {
           </div>
         </div>
       </div>
+
+      
       <footer id="footer">
         <p>Zain Hanif</p>
         <p>For more Information - please click on the links below to visit my Profile:</p>
