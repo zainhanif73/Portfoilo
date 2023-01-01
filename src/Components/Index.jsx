@@ -59,7 +59,7 @@ function Index() {
           <img className='Myimg' src={img} alt="Image of me" />
           <div className="about-text">
             <h2 >About Me</h2>
-            <h5>Developer <span>& Designer</span></h5>
+            <h5 style={{display:"flex"}}>Developer <span style={{marginLeft:'6px'}}>& Designer</span></h5>
             <p>I am an assertive, hardworking, and responsible person with strong communication skills, who is confident,
               outgoing, talkative, and works well in a team. I can also use my initiative and adapt well to a new situation. As a
               highly motivated and enthusiastic software engineer, I enjoy working in challenging situations and looking for
