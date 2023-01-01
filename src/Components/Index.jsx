@@ -1,5 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
+import Github from '../img/Github';
+import Instagram from '../img/Instagram';
+import Gmail from '../img/Gmail';
 import img from "../img/mine-back.png"
 
 
@@ -22,7 +25,7 @@ function Index() {
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About Us</a></li>
               <li><a href="#testimonial">Testimonial</a></li>
-              <li><a href="#service">Skills</a></li>
+              <li><a href="https://github.com/zainhanif73" target={"_blank"}>Skills</a></li>
               <li><a onClick={() => { ZoomEmail() }}>Contact Me</a></li>
             </ul>
             <a className="btn" onClick={() => { ZoomEmail() }} >Hire Me</a>
@@ -41,7 +44,7 @@ function Index() {
         </div>
       </div>
 
-      <section className="about" id="about"  style={{marginTop:"1px;"}}>
+      <section className="about" id="about"  style={{marginTop:"1px"}}>
         <div className="main">
           <img className='Myimg' src={img} alt="Image of me" />
           <div className="about-text">
@@ -100,11 +103,11 @@ function Index() {
       </div>
       <footer id="footer">
         <p>Zain Hanif</p>
-        <p>For more HTML, CSS, and coding tutorial - please click on the a below to subscribe to my channel:</p>
+        <p>For more Information - please click on the links below to visit my Profile:</p>
         <div className="social">
-          <a href="/"><i className="fab fa-facebook-f"></i></a>
-          <a href="/"><i className="fab fa-instagram"></i></a>
-          <a href="/"><i className="fab fa-dribbble"></i></a>
+          <a href="https://github.com/zainhanif73" target={"_blank"}><Github/></a>
+          <a href="https://www.instagram.com/zainhanif_786/" target={"_blank"}><Instagram/></a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=zainhanif700@gmail.com"  target={"_blank"} style={{width:"50px", height:"40px"}}><Gmail/></a>
         </div>
         <p className="end">CopyRight By @Zain Hanif</p>
       </footer>
