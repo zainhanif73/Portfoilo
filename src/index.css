@@ -22,7 +22,7 @@ nav {
 	padding-right: 8%;
 }
 
-.aboutMe{
+.aboutMe {
 	font-size: 35px;
 	padding: 0px;
 }
@@ -198,8 +198,7 @@ button:hover {
 
 .title h2 {
 	color: white;
-	font-size: 75px;
-	width: 1130px;
+	font-size: 50px;
 	margin: 30px auto;
 	text-align: center;
 }
@@ -212,7 +211,7 @@ button:hover {
 }
 
 .card {
-	height: 365px;
+	height: fit-content;
 	width: 335px;
 	padding: 20px 35px;
 	background: #191919;
@@ -353,15 +352,16 @@ footer p:nth-child(2) {
 }
 
 
+
 @media only screen and (max-width:600px) {
 	.hero {
-		height: 70vh;
+		height: 80vh;
 	}
-	
-	.about-text h2 { 
+
+	.about-text h2 {
 		color: white;
-		font-size: 45px; 
- 		text-transform: capitalize;
+		font-size: 45px;
+		text-transform: capitalize;
 		margin-bottom: 20px;
 	}
 
@@ -384,4 +384,15 @@ footer p:nth-child(2) {
 	.main {
 		padding: 0px 30px;
 	}
+
+	.title {
+		justify-content: left;
+	}
+
+	.title h2 {
+		color: white;
+		font-size: 30px;
+		margin-left: 0px;
+	}
+
 }

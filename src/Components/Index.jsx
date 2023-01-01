@@ -41,7 +41,7 @@ function Index() {
         </div>
       </div>
 
-      <section className="about" id="about">
+      <section className="about" id="about"  style={{marginTop:"1px;"}}>
         <div className="main">
           <img className='Myimg' src={img} alt="Image of me" />
           <div className="about-text">
@@ -58,16 +58,16 @@ function Index() {
 
       {/* <!-----service section start-----------> */}
       <div className="service" id="testimonial">
-        <div className="title">
+        <div className="title ">
           <h2>My Testimonials</h2>
         </div>
 
-        <div className="box">
+        <div className="box" style={{display:"flex" , flexWrap:"wrap"}}>
           <div className="card">
             <i className="fas fa-bars"></i>
             <h5>Qazi Hamza Anis </h5>
             <div className="pra">
-              <p>"No matter where you put a start it will always get its way out to shile. You are just like that."</p>
+              <p>"No matter where you put a start it will always get its way out to shine. You are just like that."</p>
 
               <p style={{ textAlign: "center" }}>
                 <a className="button" href="https://www.linkedin.com/in/qazihamzaanis/" target={"_blank"}>Visit Profile</a>
@@ -78,7 +78,7 @@ function Index() {
             <i className="fas fa-bars"></i>
             <h5>Ismail Khan </h5>
             <div className="pra">
-              <p>"It's been great working with you. I'm so happy for you and your new opportunity. Best of luck."</p>
+              <p>"It's been great working with you. I'm so happy for you and your new opportunities. Best of luck."</p>
 
               <p style={{ textAlign: "center" }}>
                 <a className="button" href="https://www.linkedin.com/in/ismail-khan-092696219/" target={"_blank"}>Visit Profile</a>
