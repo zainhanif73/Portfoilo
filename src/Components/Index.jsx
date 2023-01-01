@@ -98,6 +98,16 @@ function Index() {
           </div>
         </div>
       </div>
+      <footer id="footer">
+        <p>Zain Hanif</p>
+        <p>For more HTML, CSS, and coding tutorial - please click on the a below to subscribe to my channel:</p>
+        <div className="social">
+          <a href="/"><i className="fab fa-facebook-f"></i></a>
+          <a href="/"><i className="fab fa-instagram"></i></a>
+          <a href="/"><i className="fab fa-dribbble"></i></a>
+        </div>
+        <p className="end">CopyRight By @Zain Hanif</p>
+      </footer>
 
     </>
   )
