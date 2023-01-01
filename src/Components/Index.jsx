@@ -113,7 +113,7 @@ function Index() {
       </div>
 
       
-      <footer id="footer">
+      <footer id="footer" style={{height:"300px"}}>
         <p>Zain Hanif</p>
         <p>For more Information - please click on the links below to visit my Profile:</p>
         <div className="social">
