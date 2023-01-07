@@ -12,6 +12,7 @@ function Index() {
   const [email, setEmail] = useState('');
 
   function ZoomEmail() {
+    
     setzoom(true);
     setTimeout(() => {
       setzoom(false);
