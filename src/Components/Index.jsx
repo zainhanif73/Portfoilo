@@ -34,7 +34,7 @@ function Index() {
           <h2 className="logo">Portfo<span>lio</span></h2>
             <ul>
               <li><a href="#home">Home</a></li>
-              <li><a href="#about">About Us</a></li>
+              <li><a href="#about">About Me</a></li>
               <li><a href="#testimonial">Testimonial</a></li>
               <li><a href="https://github.com/zainhanif73" target={"_blank"}>Skills</a></li>
               <li><a onClick={() => { ZoomEmail() }}>Contact Me</a></li>
