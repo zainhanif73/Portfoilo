@@ -8,7 +8,7 @@
 .hero {
 	height: 100vh;
 	width: 100%;
-	background-image: url(../src//img//background.jpg);
+	background-color: hsla(0, 0%, 3%, 0.904);
 	background-size: cover;
 	background-position: center;
 }
@@ -351,11 +351,18 @@ footer p:nth-child(2) {
 	font-size: 14px;
 }
 
+.fly{
+	display: flex;
+}
 
 
 @media only screen and (max-width:600px) {
 	.hero {
 		height: 75vh;
+	}
+
+	.fly{
+		display: none;
 	}
 
 	.about-text h2 {
